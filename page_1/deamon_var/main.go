@@ -41,4 +41,18 @@ func main() {
 	fmt.Printf("The operating system is: %s\n", goos)
 	path := os.Getenv("PATH")
 	fmt.Printf("Path is %s\n", path)
+	fmt.Println("===============")
+	a := "G"
+	print(a)
+	f1()
+}
+
+func f1() {
+	a := "1"
+	print(a)
+	f2()
+}
+
+func f2() {
+	print(a)
 }
