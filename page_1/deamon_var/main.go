@@ -1,3 +1,5 @@
+// 变量
+// 声明变量的一般形式是使用 var 关键字：var identifier type
 package main
 
 import (
@@ -5,9 +7,6 @@ import (
 	"os"
 	"runtime"
 )
-
-//变量
-//声明变量的一般形式是使用 var 关键字：var identifier type
 
 // 书写形式
 var age, score int //一次性声明变量类型

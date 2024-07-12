@@ -1,10 +1,10 @@
+// 常量 const
 package main
 
 import (
 	"fmt"
 )
 
-// 常量 const
 const beef, two, d = "eat", 2, "veg"
 
 const (
