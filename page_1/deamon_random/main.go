@@ -12,6 +12,7 @@ func main() {
 	timeNs := int64(time.Now().Nanosecond())
 	r := rand.New(rand.NewSource(timeNs))
 
+	
 	// 生成和打印随机整数
 	for i := 0; i < 5; i++ {
 		fmt.Printf("%d / ", r.Intn(100))
